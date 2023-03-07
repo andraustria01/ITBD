@@ -20,14 +20,15 @@ body {
 .box .left_box {
     position: relative;
     background: gray;
+    width: 370px;
     padding: 20px;
     clear: both;
 }
 
-.left_box .info {
+.info {
     float: right;
     text-align: right;
-    margin-left: 200px;
+
 }
 
 .box .right_box {
