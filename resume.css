@@ -1,0 +1,33 @@
+body.asd {
+    background-color: whitesmoke;
+    font-family: "montserrat", "arial";
+}
+
+.info {
+    color:black;
+    clear: both;
+    border-collapse: collapse;
+    left: 50%;
+}
+
+.rightText {
+    text-align: right;
+    float: right;
+    margin-right: 70%;
+}
+
+.leftText {
+    float: left;
+    font-weight: bold;
+}
+
+.objtv {
+    float: right;
+    margin-left: 80%;
+}
+
+.objReason {
+    float: right;
+    text-align: right;
+    margin-left: 80%;
+}
