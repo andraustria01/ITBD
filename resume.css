@@ -1,5 +1,5 @@
 body {
-    background-color: #2F5597;
+    background-color: black;
     font-family: "montserrat", "arial";
     display: flex;
     justify-content: center;
@@ -12,7 +12,6 @@ body {
     width: 100%;
     margin: 50px;
     max-width: 1000px;
-    min-height: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -20,8 +19,15 @@ body {
 
 .box .left_box {
     position: relative;
-    background: #8FAADC;
+    background: gray;
     padding: 20px;
+    clear: both;
+}
+
+.info {
+    float: right;
+    text-align: right;
+    margin-left: 200px;
 }
 
 .box .right_box {
@@ -29,3 +35,7 @@ body {
     background: whitesmoke;
     padding: 20px;
 }
+
+img {
+    border-radius: 50%;
+  }
