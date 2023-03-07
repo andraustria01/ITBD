@@ -1,33 +1,31 @@
-body.asd {
-    background-color: whitesmoke;
+body {
+    background-color: #2F5597;
     font-family: "montserrat", "arial";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
 }
 
-.info {
-    color:black;
-    clear: both;
-    border-collapse: collapse;
-    left: 50%;
+.box {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
 
-.rightText {
-    text-align: right;
-    float: right;
-    margin-right: 70%;
+.box .left_box {
+    position: relative;
+    background: #8FAADC;
+    padding: 20px;
 }
 
-.leftText {
-    float: left;
-    font-weight: bold;
-}
-
-.objtv {
-    float: right;
-    margin-left: 80%;
-}
-
-.objReason {
-    float: right;
-    text-align: right;
-    margin-left: 80%;
+.box .right_box {
+    position: relative;
+    background: whitesmoke;
+    padding: 20px;
 }
