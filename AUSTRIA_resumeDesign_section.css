@@ -23,6 +23,7 @@ body {
     width: 370px;
     padding: 20px;
     clear: both;
+    border-radius: 10px;
 }
 
 .info {
@@ -35,8 +36,9 @@ body {
     position: relative;
     background: whitesmoke;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .img1 img {
     border-radius: 50%;
-  }
+}
