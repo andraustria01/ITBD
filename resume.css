@@ -24,7 +24,7 @@ body {
     clear: both;
 }
 
-.info {
+.left_box .info {
     float: right;
     text-align: right;
     margin-left: 200px;
@@ -36,6 +36,6 @@ body {
     padding: 20px;
 }
 
-img {
+.img1 img {
     border-radius: 50%;
   }
